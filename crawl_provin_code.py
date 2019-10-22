@@ -17,7 +17,7 @@ for i in range(len(item)):
 
 with open('cccd_provin_code.txt', 'w') as f:
     for i in range(len(indexs)):
-        row = indexs[i] + '\t' + provines[i] + '\t' + codes[i] + '\n'
+        row = provines[i] + '\t' + codes[i] + '\n'
         f.write(row)
 
 # cmnd
